@@ -1,0 +1,124 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0074a2 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    list-style: none;
+    display: inline;
+    padding: 0 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Space between title and image */
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.logo img {
+    width: 120px; /* Increased size of the image */
+    height: 120px; /* Increased size of the image */
+    border-radius: 50%; /* Makes the image circular */
+    border: 5px solid #fff; /* Optional: Add border around the image */
+    object-fit: cover; /* Ensures the image covers the frame properly */
+}
+
+.title {
+    flex: 1;
+    margin-left: 20px; /* Space between image and title */
+}
+
+.section {
+    padding: 40px 0; /* Space between sections */
+    clear: both;
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 20px; /* Space below section headings */
+}
+
+form {
+    width: 80%; /* Adjust form width as needed */
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: calc(100% - 12px); /* Adjust input width for form styling */
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #0074a2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #005c80;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}

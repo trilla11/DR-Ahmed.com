@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Ahmed Clinic</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="doctor.jpg" alt="Doctor Image">
+                </div>
+                <div class="title">
+                    <h1>Doctor Ahmed Clinic</h1>
+                    <p>Your Trusted Healthcare Provider</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#appointments">Appointments</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to Doctor Ahmed Clinic. We are committed to providing high-quality healthcare services.</p>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <ul>
+                <li>General Checkups</li>
+                <li>Specialized Treatments</li>
+                <li>Emergency Care</li>
+                <li>...and more</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="appointments" class="section">
+        <div class="container">
+            <h2>Book an Appointment</h2>
+            <form id="appointmentForm">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}">
+                </div>
+
+                <div class="form-group">
+                    <label for="branch">Select Branch:</label>
+                    <select id="branch" name="branch">
+                        <option value="branch1">Branch 1</option>
+                        <option value="branch2">Branch 2</option>
+                        <option value="branch3">Branch 3</option>
+                        <!-- Add more branches as needed -->
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="date">Select Date:</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="time">Select Time:</label>
+                    <select id="time" name="time" required>
+                        <!-- Times will be dynamically updated by JavaScript -->
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Book Appointment</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Reach out to us at <strong>123 Clinic Street, City, Country</strong>.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Doctor Ahmed Clinic. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
